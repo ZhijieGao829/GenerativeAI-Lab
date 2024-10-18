@@ -43,13 +43,6 @@ If you prefer using Anaconda for environment management:
     conda activate openai-env
     ```
 
-Otherwise, if you aren't using Anaconda, you can create a virtual environment with Python:
-```bash
-    python -m venv openai-env
-    source openai-env/bin/activate
-```
-
-
 ### **Step 3: Install the OpenAI Python Library**
 
 Once your environment is activated (whether through Anaconda or `virtualenv`), install the OpenAI Python client library:
