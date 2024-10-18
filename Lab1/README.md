@@ -6,16 +6,16 @@ This tutorial walks you through setting up a development environment to interact
 
 ## **Prerequisites**
 
-1. **Python (Required)**:
-   - You must have Python 3.8+ installed. You can download Python from the official [Python website](https://www.python.org/downloads/).
-
-2. **OpenAI Account**:
+1. **OpenAI Account**:
    - Sign up for an OpenAI account [here](https://platform.openai.com/signup).
    - After signing up, navigate to the [API Keys page](https://platform.openai.com/account/api-keys) to create and retrieve your API key.
 
+2. **Python**:
+   - If you're **not using Anaconda**, you must install **Python 3.8+**. Download it from the [official Python website](https://www.python.org/downloads/).
+   - If you're using **Anaconda**, Python comes included with the installation.
+
 3. **Anaconda (Recommended)**:
-   - Anaconda simplifies environment management, but it is not required. If you prefer, you can manage the environment using Python's `venv` or install packages globally.
-   - If you wish to use Anaconda, follow the [official Anaconda installation guide](https://docs.anaconda.com/anaconda/install/).
+   - Anaconda simplifies environment management by providing an all-in-one solution. If you'd like to use it, follow the [official Anaconda installation guide](https://docs.anaconda.com/anaconda/install/).
 
 ---
 
@@ -23,7 +23,7 @@ This tutorial walks you through setting up a development environment to interact
 
 ### **Step 1: Install Python**
 
-- Download and install Python 3.8+ from the [official Python website](https://www.python.org/downloads/).
+- If you're **not using Anaconda**, download and install Python 3.8+ from the [official Python website](https://www.python.org/downloads/).
 - Verify your Python installation by running the following command:
     ```bash
     python --version
@@ -43,13 +43,24 @@ If you prefer using Anaconda for environment management:
     conda activate openai-env
     ```
 
-Otherwise, if you aren't using Anaconda, you can create a virtual environment with Python:
+If you're **not using Anaconda**, you can create a virtual environment with Python:
 
+1. **Create a virtual environment**:
     ```bash
     python -m venv openai-env
-    source openai-env/bin/activate 
     ```
 
+2. **Activate the environment**:
+    - On macOS/Linux:
+      ```bash
+      source openai-env/bin/activate
+      ```
+    - On Windows:
+      ```bash
+      openai-env\Scripts\activate
+      ```
+
+---
 
 ### **Step 3: Install the OpenAI Python Library**
 
@@ -138,6 +149,7 @@ Now that your environment is set up, you can test your OpenAI API connection by 
     ```
 
 4. You should see a response from OpenAI GPT-3.5 Turbo in your terminal.
+
 
 ---
 
