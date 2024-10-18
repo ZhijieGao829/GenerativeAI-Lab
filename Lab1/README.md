@@ -31,7 +31,7 @@ This tutorial walks you through setting up a development environment to interact
 
 ### **Step 2 (Recommended): Use Anaconda to Create and Activate a New Environment**
 
-If you prefer using Anaconda for environment management:
+If you prefer using Anaconda for environment management, follow these steps in the **Anaconda Prompt** or any terminal where `conda` is configured:
 
 1. **Create a new environment** with Python 3.8+:
     ```bash
@@ -43,22 +43,7 @@ If you prefer using Anaconda for environment management:
     conda activate openai-env
     ```
 
-If you're **not using Anaconda**, you can create a virtual environment with Python:
-
-1. **Create a virtual environment**:
-    ```bash
-    python -m venv openai-env
-    ```
-
-2. **Activate the environment**:
-    - On macOS/Linux:
-      ```bash
-      source openai-env/bin/activate
-      ```
-    - On Windows:
-      ```bash
-      openai-env\Scripts\activate
-      ```
+> **Note**: You must use the **Anaconda Prompt**, **PowerShell (if conda is set up)**, or a terminal configured to use `conda` for these commands to work. If you try this in a standard command prompt without `conda` support, it may not recognize the commands.
 
 ---
 
