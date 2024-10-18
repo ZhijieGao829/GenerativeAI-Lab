@@ -31,7 +31,7 @@ This tutorial walks you through setting up a development environment to interact
 
 ### **Step 2 (Recommended): Use Anaconda to Create and Activate a New Environment**
 
-If you prefer using Anaconda for environment management:
+If you prefer using Anaconda for environment management, follow these steps in the **Anaconda Prompt** or any terminal where `conda` is configured:
 
 1. **Create a new environment** with Python 3.8+:
     ```bash
@@ -43,13 +43,22 @@ If you prefer using Anaconda for environment management:
     conda activate openai-env
     ```
 
+<<<<<<< HEAD
+=======
+> **Note**: You must use the **Anaconda Prompt**, **PowerShell (if conda is set up)**, or a terminal configured to use `conda` for these commands to work. If you try this in a standard command prompt without `conda` support, it may not recognize the commands.
+
+---
+
+>>>>>>> 0fca1143d29fe13f64c931ac6759027800396845
 ### **Step 3: Install the OpenAI Python Library**
 
-Once your environment is activated (whether through Anaconda or `virtualenv`), install the OpenAI Python client library:
+Once your environment is activated (whether using Anaconda or installed Python), install the OpenAI Python client library:
 
 ```bash
 pip install --upgrade openai
 ```
+
+---
 
 ### **Step 4: Set Your OpenAI API Key**
 
@@ -84,53 +93,46 @@ To make API requests, you need to set your OpenAI API key as an environment vari
 
 #### **Windows**:
 
-1. Open the **Start Menu**, search for "Environment Variables", and select **Edit the system environment variables**.
-2. In the **System Properties** window, click on **Environment Variables**.
-3. Under **System Variables**, click **New** and add:
-    - **Variable Name**: `OPENAI_API_KEY`
-    - **Variable Value**: Your OpenAI API key
-4. Press **OK** to save.
-5. To verify, open the Command Prompt and run:
-    ```bash
-    echo %OPENAI_API_KEY%
-    ```
-
+1. Open the **Start Menu** and search for "View advanced system settings". Select the result.
+2. In the **System Properties** window, go to the **Advanced** tab.
+3. Click the **Environment Variables** button at the bottom.
+4. In the **Environment Variables** window, under **System Variables**, click **New** to create a new environment variable.
+5. In the **New System Variable** window, enter:
+   - **Variable Name**: `OPENAI_API_KEY`
+   - **Variable Value**: Your OpenAI API key (replace with your actual key).
+6. Click **OK** to save the new variable, and then press **OK** to close the **Environment Variables** window.
+7. To verify the environment variable is set correctly, open **ADMINISTRATOR Command Prompt** and run:
+   ```bash
+   echo %OPENAI_API_KEY%
+   ```
 ---
 
-### **Step 5: Make Your First API Request**
+### **Step 5: Test Your First API Request Using Python Scripts and Notebooks**
 
-Now that your environment is set up, you can test your OpenAI API connection by creating a simple Python script.
+Now that your environment is set up, you can test your OpenAI API connection using a Python script or Jupyter notebook.
 
-1. Create a file named `openai_test.py` in your preferred editor or terminal/command prompt.
-2. Add the following code:
+#### **Method 1: Using a Python Script**
 
-    ```python
-    import openai
-    import os
+1. **Run the `Lab1_StarterPython.py` file** that has already been created for you in your project folder.
 
-    # Retrieve the API key from the environment
-    openai.api_key = os.getenv("OPENAI_API_KEY")
-
-    # Create a chat completion request
-    completion = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
-        messages=[
-            {"role": "system", "content": "You are a helpful assistant."},
-            {"role": "user", "content": "What is OpenAI?"}
-        ]
-    )
-
-    # Print the response
-    print(completion.choices[0].message['content'])
-    ```
-
-3. Run the script in the terminal:
+2. Open a terminal, navigate to your project directory, and execute the script by running:
     ```bash
-    python openai_test.py
+    python Lab1_StarterPython.py
     ```
 
-4. You should see a response from OpenAI GPT-3.5 Turbo in your terminal.
+3. You should see a response from OpenAI GPT-3.5 Turbo in your terminal.
 
+#### **Method 2: Using Jupyter Notebook or VS Code**
+
+1. **Open the provided Jupyter notebook** in either Jupyter Notebook, VS Code, or any notebook-supported environment.
+
+2. **Run the cells** to interact with the OpenAI API directly from the notebook environment.
+
+3. You should receive similar output, with the model generating a response based on your request.
+
+This allows you to test the API integration using both command-line and notebook-based workflows.
+
+---
 
 ---
 
