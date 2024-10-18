@@ -91,17 +91,17 @@ To make API requests, you need to set your OpenAI API key as an environment vari
 #### **Windows**:
 
 1. Open the **Start Menu** and search for "View advanced system settings". Select the result.
-2. In the **System Properties** window, go to the **Advanced** tab (as shown in the image).
+2. In the **System Properties** window, go to the **Advanced** tab.
 3. Click the **Environment Variables** button at the bottom.
 4. In the **Environment Variables** window, under **System Variables**, click **New** to create a new environment variable.
 5. In the **New System Variable** window, enter:
    - **Variable Name**: `OPENAI_API_KEY`
    - **Variable Value**: Your OpenAI API key (replace with your actual key).
 6. Click **OK** to save the new variable, and then press **OK** to close the **Environment Variables** window.
-7. To verify the environment variable is set correctly, open **Command Prompt** and run:
+7. To verify the environment variable is set correctly, open **ADMINISTRATOR Command Prompt** and run:
    ```bash
    echo %OPENAI_API_KEY%
-
+   ```
 ---
 
 ### **Step 5: Make Your First API Request**
