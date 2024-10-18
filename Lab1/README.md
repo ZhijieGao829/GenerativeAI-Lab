@@ -44,11 +44,10 @@ If you prefer using Anaconda for environment management:
     ```
 
 Otherwise, if you aren't using Anaconda, you can create a virtual environment with Python:
-
-    ```bash
+```bash
     python -m venv openai-env
-    source openai-env/bin/activate 
-    ```
+    source openai-env/bin/activate
+```
 
 
 ### **Step 3: Install the OpenAI Python Library**
