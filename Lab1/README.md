@@ -43,7 +43,6 @@ If you prefer using Anaconda for environment management:
     conda activate openai-env
     ```
 
-<<<<<<< HEAD
 If you're **not using Anaconda**, you can create a virtual environment with Python:
 
 1. **Create a virtual environment**:
@@ -63,8 +62,6 @@ If you're **not using Anaconda**, you can create a virtual environment with Pyth
 
 ---
 
-=======
->>>>>>> 9673e11889f3ced228d202b9abf794a0d206b03a
 ### **Step 3: Install the OpenAI Python Library**
 
 Once your environment is activated (whether through Anaconda or `virtualenv`), install the OpenAI Python client library:
@@ -72,6 +69,8 @@ Once your environment is activated (whether through Anaconda or `virtualenv`), i
 ```bash
 pip install --upgrade openai
 ```
+
+---
 
 ### **Step 4: Set Your OpenAI API Key**
 
@@ -152,7 +151,6 @@ Now that your environment is set up, you can test your OpenAI API connection by 
     ```
 
 4. You should see a response from OpenAI GPT-3.5 Turbo in your terminal.
-
 
 ---
 
