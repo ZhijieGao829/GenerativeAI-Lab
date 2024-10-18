@@ -6,16 +6,16 @@ This tutorial walks you through setting up a development environment to interact
 
 ## **Prerequisites**
 
-1. **Python (Required)**:
-   - You must have Python 3.8+ installed. You can download Python from the official [Python website](https://www.python.org/downloads/).
-
-2. **OpenAI Account**:
+1. **OpenAI Account**:
    - Sign up for an OpenAI account [here](https://platform.openai.com/signup).
    - After signing up, navigate to the [API Keys page](https://platform.openai.com/account/api-keys) to create and retrieve your API key.
 
+2. **Python**:
+   - If you're **not using Anaconda**, you must install **Python 3.8+**. Download it from the [official Python website](https://www.python.org/downloads/).
+   - If you're using **Anaconda**, Python comes included with the installation.
+
 3. **Anaconda (Recommended)**:
-   - Anaconda simplifies environment management, but it is not required. If you prefer, you can manage the environment using Python's `venv` or install packages globally.
-   - If you wish to use Anaconda, follow the [official Anaconda installation guide](https://docs.anaconda.com/anaconda/install/).
+   - Anaconda simplifies environment management by providing an all-in-one solution. If you'd like to use it, follow the [official Anaconda installation guide](https://docs.anaconda.com/anaconda/install/).
 
 ---
 
