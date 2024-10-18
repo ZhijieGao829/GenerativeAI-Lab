@@ -43,13 +43,9 @@ If you prefer using Anaconda for environment management, follow these steps in t
     conda activate openai-env
     ```
 
-<<<<<<< HEAD
-=======
-> **Note**: You must use the **Anaconda Prompt**, **PowerShell (if conda is set up)**, or a terminal configured to use `conda` for these commands to work. If you try this in a standard command prompt without `conda` support, it may not recognize the commands.
+> **Note**: If you're using Anaconda, we recommend running these commands in the **Anaconda Prompt** or any terminal where `conda` commands are configured.
 
 ---
-
->>>>>>> 0fca1143d29fe13f64c931ac6759027800396845
 ### **Step 3: Install the OpenAI Python Library**
 
 Once your environment is activated (whether using Anaconda or installed Python), install the OpenAI Python client library:
@@ -131,8 +127,6 @@ Now that your environment is set up, you can test your OpenAI API connection usi
 3. You should receive similar output, with the model generating a response based on your request.
 
 This allows you to test the API integration using both command-line and notebook-based workflows.
-
----
 
 ---
 
