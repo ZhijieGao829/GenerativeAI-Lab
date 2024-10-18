@@ -49,7 +49,7 @@ If you prefer using Anaconda for environment management, follow these steps in t
 
 ### **Step 3: Install the OpenAI Python Library**
 
-Once your environment is activated (whether through Anaconda or `virtualenv`), install the OpenAI Python client library:
+Once your environment is activated (whether using Anaconda or installed Python), install the OpenAI Python client library:
 
 ```bash
 pip install --upgrade openai
@@ -104,39 +104,32 @@ To make API requests, you need to set your OpenAI API key as an environment vari
    ```
 ---
 
-### **Step 5: Make Your First API Request**
+### **Step 5: Test Your First API Request Using Python Scripts and Notebooks**
 
-Now that your environment is set up, you can test your OpenAI API connection by creating a simple Python script.
+Now that your environment is set up, you can test your OpenAI API connection using a Python script or Jupyter notebook.
 
-1. Create a file named `openai_test.py` in your preferred editor or terminal/command prompt.
-2. Add the following code:
+#### **Method 1: Using a Python Script**
 
-    ```python
-    import openai
-    import os
+1. **Run the `Lab1_StarterPython.py` file** that has already been created for you in your project folder.
 
-    # Retrieve the API key from the environment
-    openai.api_key = os.getenv("OPENAI_API_KEY")
-
-    # Create a chat completion request
-    completion = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
-        messages=[
-            {"role": "system", "content": "You are a helpful assistant."},
-            {"role": "user", "content": "What is OpenAI?"}
-        ]
-    )
-
-    # Print the response
-    print(completion.choices[0].message['content'])
-    ```
-
-3. Run the script in the terminal:
+2. Open a terminal, navigate to your project directory, and execute the script by running:
     ```bash
-    python openai_test.py
+    python Lab1_StarterPython.py
     ```
 
-4. You should see a response from OpenAI GPT-3.5 Turbo in your terminal.
+3. You should see a response from OpenAI GPT-3.5 Turbo in your terminal.
+
+#### **Method 2: Using Jupyter Notebook or VS Code**
+
+1. **Open the provided Jupyter notebook** in either Jupyter Notebook, VS Code, or any notebook-supported environment.
+
+2. **Run the cells** to interact with the OpenAI API directly from the notebook environment.
+
+3. You should receive similar output, with the model generating a response based on your request.
+
+This allows you to test the API integration using both command-line and notebook-based workflows.
+
+---
 
 ---
 
