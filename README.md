@@ -9,7 +9,8 @@ Welcome to the repository for the **Generative AI Labs** course (94-844) at Carn
 - **TAs**: 
   - Michael Bogush (mbogush@andrew.cmu.edu)
   - Sara Kingsley (skingsle@cs.cmu.edu)
-- **Time**: Tue/Thu 9:30-10:50pm | Labs: Friday 12:30-1:30pm (via Zoom)
+- **Time**: Tue/Thu 9:30-10:50pm
+- **Labs:** Friday 12:30-1:30pm (via Zoom)
 - **Location**: HbH 2008
 
 
