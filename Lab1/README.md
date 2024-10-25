@@ -133,5 +133,6 @@ This allows you to test the API integration using both command-line and notebook
 ## **Additional Resources**
 
 - [OpenAI API Documentation](https://platform.openai.com/docs)
+- [OpenAI API Environment Documentation](https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety)
 - [Python Documentation](https://docs.python.org/3/)
 - [Anaconda Documentation](https://docs.anaconda.com/)
