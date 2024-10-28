@@ -6,6 +6,29 @@ Welcome to Lab 2! In this lab, you'll explore prompt engineering, a powerful tec
 
 Prompt engineering is the process of designing and refining prompts to elicit desired responses from language models. By carefully structuring your prompts with specific instructions, context, and examples, you can influence the model's output to better suit your needs in tasks such as text generation, translation, summarization, and question answering.
 
+## OpenAI Model Parameter Explanation
+In the provided code snippet, you are configuring the AI model's behavior for generating text responses. These settings, known as **hyperparameters**, are crucial for steering the model's response generation process. Hyperparameters play a pivotal role in adjusting how the model interprets and processes the input it receives. While there are many hyperparameters available, the ones mentioned here are particularly important to understand for effective use:
+
+
+- **model**: Specifies which model to use. Different models have different capabilities, sizes, and cost implications.
+- **messages**: The input prompt or conversation history sent to the model for generating a response.
+- **temperature**: Controls randomness in the response generation. A lower temperature (e.g., 0.1) makes the model's responses more deterministic and conservative.
+- **max_tokens**: The maximum length of the response the model can generate, measured in tokens (words or pieces of words).
+- **top_p**: Controls the diversity of the responses through nucleus sampling, where `top_p` is the probability mass considered for sampling tokens. A value of 1 means considering all tokens, thus reducing constraints on generation diversity.
+
+### Example Python Script
+
+```python
+# Make the API request using the defined prompt
+response = client.chat.completions.create(
+    model="gpt-3.5-turbo",  # Model identifier
+    messages=prompt,        # Input prompt or messages
+    temperature=0.1,        # Lower temperature for less randomness
+    max_tokens=250,         # Maximum length of the generated response
+    top_p=1                 # Use all tokens in the response generation
+)
+```
+
 ## Key Prompting Techniques
 
 In this lab, you'll learn about three essential prompting techniques:
