@@ -8,8 +8,7 @@ This repository provides guidance for using text-to-image generation models, spe
 1. [Setup](#setup)
 2. [Using Hugging Face for Stable Diffusion](#using-hugging-face-for-stable-diffusion)
 3. [Using OpenAI for DALL·E](#using-openai-for-dalle)
-4. [Examples](#examples)
-5. [Additional Resources](#additional-resources)
+4. [Additional Resources](#additional-resources)
 
 ---
 
@@ -138,10 +137,6 @@ print(image_url)
 
 ---
 
-## Examples
-Include sample prompts and the corresponding generated images for both platforms.
-
----
 
 ## Additional Resources
 - [Hugging Face Documentation](https://huggingface.co/docs)
