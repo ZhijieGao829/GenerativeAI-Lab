@@ -77,7 +77,8 @@ image.save("Carnegie.png")
 ```
 
 ### 5. Image Generation Result
-<img src="https://github.com/user-attachments/assets/ede1b105-4349-498f-b96c-c05e19994350" width="600" height="600" alt="Carnegie">
+<img src="https://github.com/mtbogush/GenerativeAI-Lab/blob/f153086f469c13314e5340fe3b82b0da04e88b5a/Lab3/Images/Carnegie_HF.png?raw=true" width="600" height="600" alt="Carnegie Dall-E">
+
 
 
 ---
@@ -129,8 +130,7 @@ print(image_url)
 ```
 - The image URL will be printed to the console. You can use this URL to view or download the image as needed. URL will expire after a certain period of time, so make sure you download the photo if you need it saved.
 ### 5. Image Generation Result
-<img src="https://github.com/user-attachments/assets/f4791af5-b5a3-4557-be16-c2a22de6a25d" width="600" height="600" alt="Carnegie">
-
+<img src="https://github.com/mtbogush/GenerativeAI-Lab/blob/f153086f469c13314e5340fe3b82b0da04e88b5a/Lab3/Images/Carnegie_Dall-E.png?raw=true" width="600" height="600" alt="Carnegie Dall-E">
 
 ### Additional Notes:
 - For comprehensive documentation and more examples, visit the [OpenAI API documentation](https://beta.openai.com/docs/).
