@@ -1,18 +1,15 @@
 # Generative AI Labs - Fall 2024
 
-Welcome to the repository for the **Generative AI Labs** course (94-844) at Carnegie Mellon University, Fall 2024. This repository contains the lab exercises for the course, providing hands-on experience with Generative AI models and tools.
+Welcome to the repository for the **Generative AI Labs** course (94-844) at Carnegie Mellon University, Spring 2025. This repository contains the lab exercises for the course, providing hands-on experience with Generative AI models and tools.
 
 ## Course Overview
 
 - **Course**: 94-844 – Generative AI Lab
 - **Instructor**: Beibei Li
 - **TAs**: 
-  - Michael Bogush (mbogush@andrew.cmu.edu)
+  - Zhijie Gao (zhijieg@andrew.cmu.edu)
   - Sara Kingsley (skingsle@cs.cmu.edu)
-- **Time**: Tue/Thu 9:30-10:50pm
 - **Labs:** Friday 12:30-1:30pm (via Zoom)
-- **Location**: HbH 2008
-
 
 ## Lab Structure
 
