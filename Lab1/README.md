@@ -34,7 +34,7 @@ To Have a working python based environment so that you can make you first API ca
     ```bash
     python --version
     ```
-### **If you are going with option 1, the raw python way, this is the end for your tech setup **
+#### If you are going with option 1, the raw python way, this is the end for your tech setup 
 
 
 ### **Step 2 (Recommended): Use Anaconda to Create and Activate a New Environment**
