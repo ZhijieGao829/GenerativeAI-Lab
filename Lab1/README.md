@@ -30,10 +30,12 @@ To Have a working python based environment so that you can make you first API ca
 ### **Step 1: Install Python**
 
 - If you're **not using Anaconda**, download and install Python 3.8+ from the [official Python website](https://www.python.org/downloads/).
-- Verify your Python installation by running the following command:
+- Verify your Python installation by running the following command (in command line/powershell):
     ```bash
     python --version
     ```
+### **If you are going with option 1, the raw python way, this is the end for your tech setup **
+
 
 ### **Step 2 (Recommended): Use Anaconda to Create and Activate a New Environment**
 
