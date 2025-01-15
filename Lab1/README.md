@@ -10,13 +10,6 @@ This tutorial walks you through setting up a development environment to interact
    - Sign up for an OpenAI account [here](https://platform.openai.com/signup).
    - After signing up, navigate to the [API Keys page](https://platform.openai.com/account/api-keys) to create and retrieve your API key.
 
-2. **Python**:
-   - If you're **not using Anaconda**, you must install **Python 3.8+**. Download it from the [official Python website](https://www.python.org/downloads/).
-   - If you're using **Anaconda**, Python comes included with the installation.
-
-3. **Anaconda (Recommended)**:
-   - Anaconda simplifies environment management by providing an all-in-one solution. If you'd like to use it, follow the [official Anaconda installation guide](https://docs.anaconda.com/anaconda/install/).
-
 ---
 
 ## **Our Goal**
@@ -42,6 +35,7 @@ To Have a working python based environment so that you can make you first API ca
 
 - Jupyter notebook has a number of advantages like easier workflow, better visualizations, the ability to run codes easily in blocks etc...
 - Anaconda is by far the most standard way to get Jupyter installed and working, so we recommend this approach to setup Jupyter Notebook.
+- [official Anaconda installation guide](https://docs.anaconda.com/anaconda/install/).
 - Once you have Anaconda installed, it creates a SEPARATE python interpreter that is irrlevant to the python on your machine, and Jupyter comes with the default install options.
 - Pull up Anaconda Prompt, and type Jupyter Notebook. It should show up in your default browser.
 
