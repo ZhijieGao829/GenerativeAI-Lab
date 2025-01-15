@@ -19,6 +19,12 @@ This tutorial walks you through setting up a development environment to interact
 
 ---
 
+## **Our Goal**
+
+To Have a working python based environment so that you can make you first API call to OpenAi.
+
+---
+
 ## **Steps to Set Up Your Environment**
 
 ### **Step 1: Install Python**
