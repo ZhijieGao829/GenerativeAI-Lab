@@ -62,6 +62,8 @@ This is not a coding class, so we provide multiple options for you to get things
 - In the setup options, make sure you select ![ab1ba9fb36d45839e847c2fb1786287](https://github.com/user-attachments/assets/bb481de4-b5ad-4c57-a4ca-0d3183caede0)
 - Download Lab1_StarterNotebook.ipynb, and upload it to your personal Huggingface Space.
 
+- Later in the course, you would join our course huggingface spaces for some homeworks. Make sure that you CREATE COPIES of the starter code and work on the copied version in those spaces. Hugging Face lacks a well-structured permission management system, so if you mess up the starter code file, the entire class loses the starter code (and we have to upload one again, lots of confusion...)
+
 
 
 ### **Bonus: Use Anaconda to Create and Activate a New Environment**
