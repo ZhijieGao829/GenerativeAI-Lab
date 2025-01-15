@@ -52,6 +52,14 @@ To Have a working python based environment so that you can make you first API ca
 - Download Lab1_StarterNotebook.ipynb, and upload it to your personal google drive under a folder of your choice
 
 
+### **Option 4: Huggingface Space**
+
+- Functions similarly to google colab, though it is provided by Huggingface and we have an advanced version of it purchased.
+- Create a Huggingface account, and Create New Space under the Spaces Tab.
+- In the setup options, make sure you select ![ab1ba9fb36d45839e847c2fb1786287](https://github.com/user-attachments/assets/bb481de4-b5ad-4c57-a4ca-0d3183caede0)
+- Download Lab1_StarterNotebook.ipynb, and upload it to your personal Huggingface Space.
+
+
 
 ### **Step 2 (Recommended): Use Anaconda to Create and Activate a New Environment**
 
