@@ -18,6 +18,15 @@ To Have a working python based environment so that you can make you first API ca
 
 ---
 
+## **Our Options**
+
+This is not a coding class, so we provide multiple options for you to get things started. Just like in real world, there are many options out there, and you should pick the option that makes most sense for you.
+
+![5ecc3ce80a2d5a3d80bc2841d4a488a](https://github.com/user-attachments/assets/544b1cdb-6f5e-4430-8767-4219295ef620)
+
+---
+
+
 ## **Steps to Set Up Your Environment**
 
 ### **Option 1: Just Python**
