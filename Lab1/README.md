@@ -27,14 +27,30 @@ To Have a working python based environment so that you can make you first API ca
 
 ## **Steps to Set Up Your Environment**
 
-### **Step 1: Install Python**
+### **Option 1: Just Python**
 
 - If you're **not using Anaconda**, download and install Python 3.8+ from the [official Python website](https://www.python.org/downloads/).
 - Verify your Python installation by running the following command (in command line/powershell):
     ```bash
     python --version
     ```
+- You are free to choose your code editor. We recommend VSCode or PyCharm.
+
 #### If you are going with option 1, the raw python way, this is the end for your tech setup 
+
+### **Option 2: Lets Have Jupyter**
+
+- Jupyter notebook has a number of advantages like easier workflow, better visualizations, the ability to run codes easily in blocks etc...
+- Anaconda is by far the most standard way to get Jupyter installed and working, so we recommend this approach to setup Jupyter Notebook.
+- Once you have Anaconda installed, it creates a SEPARATE python interpreter that is irrlevant to the python on your machine, and Jupyter comes with the default install options.
+- Pull up Anaconda Prompt, and type Jupyter Notebook. It should show up in your default browser.
+
+
+### **Option 3: Well I Prefer The Easier Way With Colab**
+
+- Colab is a google based service that integrates Jupyter Notebook with the google ecosystem.
+- Download Lab1_StarterNotebook.ipynb, and upload it to your personal google drive under a folder of your choice
+
 
 
 ### **Step 2 (Recommended): Use Anaconda to Create and Activate a New Environment**
