@@ -61,7 +61,7 @@ To Have a working python based environment so that you can make you first API ca
 
 
 
-### **Step 2 (Recommended): Use Anaconda to Create and Activate a New Environment**
+### **Bonus: Use Anaconda to Create and Activate a New Environment**
 
 If you prefer using Anaconda for environment management, follow these steps in the **Anaconda Prompt** or any terminal where `conda` is configured:
 
@@ -76,6 +76,7 @@ If you prefer using Anaconda for environment management, follow these steps in t
     ```
 
 > **Note**: If you're using Anaconda, we recommend running these commands in the **Anaconda Prompt** or any terminal where `conda` commands are configured.
+> **Note**: If you're using Windows with Anaconda and trying to setup virtual environments, you need a Linux subsystem for it. We recommend WSL, and are happy to provide support if you need.
 
 ---
 ### **Step 3: Install the OpenAI Python Library**
