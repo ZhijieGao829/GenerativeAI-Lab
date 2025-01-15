@@ -118,7 +118,7 @@ Now that your environment is set up, you can test your OpenAI API connection usi
 
 3. You should see a response from OpenAI GPT-3.5 Turbo in your terminal.
 
-#### **Method 2: Using Jupyter Notebook or VS Code**
+#### **Method 2: Using Jupyter Notebook or VS Code** (Suggested)
 
 1. **Open the provided Jupyter notebook** in either Jupyter Notebook, VS Code, or any notebook-supported environment.
 
