@@ -83,6 +83,8 @@ If you prefer using Anaconda for environment management, follow these steps in t
 > **Note**: If you're using Anaconda, we recommend running these commands in the **Anaconda Prompt** or any terminal where `conda` commands are configured.
 > **Note**: If you're using Windows with Anaconda and trying to setup virtual environments, you need a Linux subsystem for it. We recommend WSL, and are happy to provide support if you need.
 
+A well known problem from previous semesters is that if you are going wiht virtual envirionments, you should restart the venv whenever you make changes to dependencies or your API key.
+
 ---
 ### **Step 3: Install the OpenAI Python Library**
 
