@@ -53,6 +53,7 @@ This is not a coding class, so we provide multiple options for you to get things
 
 - Colab is a google based service that integrates Jupyter Notebook with the google ecosystem.
 - Download Lab1_StarterNotebook.ipynb, and upload it to your personal google drive under a folder of your choice
+- Right click the notebook and open with colab
 
 
 ### **Option 4: Huggingface Space**
