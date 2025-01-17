@@ -46,7 +46,7 @@ This is not a coding class, so we provide multiple options for you to get things
 - Anaconda is by far the most standard way to get Jupyter installed and working, so we recommend this approach to setup Jupyter Notebook.
 - [official Anaconda installation guide](https://docs.anaconda.com/anaconda/install/).
 - Once you have Anaconda installed, it creates a SEPARATE python interpreter that is irrlevant to the python on your machine, and Jupyter comes with the default install options.
-- Pull up Anaconda Prompt, and type Jupyter Notebook. It should show up in your default browser.
+- Pull up Anaconda Prompt, and type jupyter notebook. It should show up in your default browser.
 
 
 ### **Option 3: Well I Prefer The Easier Way With Colab**
