@@ -179,9 +179,9 @@ If you have a new OpenAI account, you receive a three-month free trial that incl
 If you created your OpenAI account before and your free trial has expired, you must:
 1. **Add a valid payment method** in the Billing section of your OpenAI account. Billing overview - OpenAI API
 2. **Have $1-$5 available** in your account to use the API.
-For reference, when I took this class, I added $10 to my account and only ended up using $0.78 by the end of the semester, even as the main programmer for my group who made most of the API calls. 
-To keep costs low, I recommend sticking with gpt-3.5-turbo, which is the most affordable option.
-This means that keeping you API key safe is important, please follow the documentation in Lab1 to protect your key. If you work in a cloud environment, you can store your api key under the same directory of your notebook in a separate txt file, and read the file in your notebook to access your API key. A code sample for colab is as below:
+
+To keep costs low, I recommend sticking with gpt-3.5-turbo, which is the most affordable option. You typically need way less than $3 for all the tasks in this class.
+This means that keeping you API key safe is important, please follow the documentation in Lab1 to protect your key. If you work in a cloud environment, you can store your api key under the same directory of your notebook in a separate txt file, and read the file in your notebook to access your API key. 
 
 
 -Alternative Option to Avoid Costs:
