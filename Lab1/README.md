@@ -171,6 +171,25 @@ This allows you to test the API integration using both command-line and notebook
 
 ---
 
+### **API Limit**
+-Free Trial for New Accounts:
+If you have a new OpenAI account, you receive a three-month free trial that includes $18 in credits. This amount is more than sufficient for the activities in this class.
+
+-For Expired Free Trials:
+If you created your OpenAI account before and your free trial has expired, you must:
+1. **Add a valid payment method** in the Billing section of your OpenAI account. Billing overview - OpenAI API
+2. **Have $1-$5 available** in your account to use the API.
+For reference, when I took this class, I added $10 to my account and only ended up using $0.78 by the end of the semester, even as the main programmer for my group who made most of the API calls. 
+To keep costs low, I recommend sticking with gpt-3.5-turbo, which is the most affordable option.
+This means that keeping you API key safe is important, please follow the documentation in Lab1 to protect your key. If you work in a cloud environment, you can store your api key under the same directory of your notebook in a separate txt file, and read the file in your notebook to access your API key. A code sample for colab is as below:
+
+
+-Alternative Option to Avoid Costs:
+If you prefer not to pay anything, you can technically create a new OpenAI account with a different email to start a new free trial. This will give you access to another $18 in credits. We are unable to test this approach on our end, so feel free to share with us if you managed to get this working. 
+
+
+
+
 ## **Additional Resources**
 
 - [OpenAI API Documentation](https://platform.openai.com/docs)
