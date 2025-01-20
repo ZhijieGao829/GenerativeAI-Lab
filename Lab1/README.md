@@ -185,7 +185,7 @@ This means that keeping you API key safe is important, please follow the documen
 
 
 -Alternative Option to Avoid Costs:
-If you prefer not to pay anything, you can technically create a new OpenAI account with a different email to start a new free trial. This will give you access to another $18 in credits. We are unable to test this approach on our end, so feel free to share with us if you managed to get this working. 
+If you prefer not to pay anything, you can technically create a new OpenAI account with a different email to start a new free trial. 
 
 > **Note**: The API gives you a RateLimit Error even for some code side issues (like failing to read the API key), so if you have valid free trial and gets an error, double check on your code before paying OpenAI the money they probably don't deserve! 
 
