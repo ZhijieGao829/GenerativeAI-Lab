@@ -16,6 +16,38 @@ In the provided code snippet, you are configuring the AI model's behavior for ge
 - **max_tokens**: The maximum length of the response the model can generate, measured in tokens (words or pieces of words).
 - **top_p**: Controls the diversity of the responses through nucleus sampling, where `top_p` is the probability mass considered for sampling tokens. A value of 1 means considering all tokens, thus reducing constraints on generation diversity.
 
+
+### Quick Example
+
+Consider the sentence "I am heading towards" as input, and our model aims to predict the next word given these previous words.
+With all those fancy transformers stuff, we end up having a few options with the following probs:
+
+1. home: 0.4
+2. school: 0.3
+3. the park: 0.2
+4. Mars: 0.1
+
+
+1. Temperature:
+
+Low temperature (0.1): The model skews strongly toward the most probable option. In this case, "home" (0.4) would almost always be chosen.
+
+High temperature (1.0): The model’s selection becomes more random, with less emphasis on probabilities. It might select any of the options (“home”, “school,” “the park,” or “Mars”), giving each word a chance proportional to its probability.
+
+2. Top-p:
+
+Top-p = 1.0 (Full Nucleus): All options are considered. The model might choose any of the four words, weighted by their respective probabilities. So you might be head towards Mars 1/10.
+
+Top-p = 0.7: Only the top cumulative 70% probability is considered. In this case, "home" and "school" would be included, but "the park" and "Mars" would be excluded because their combined probability (0.3) falls outside the 60% threshold. So you will never head towards Mars under this hyperparam!
+
+3. max_tokens:
+
+If max_tokens is set to 1, the model stops after generating a single word. For the prompt "I am heading towards," the output might be "home."
+
+With max_tokens = 5, the model can produce a longer response, such as:
+"home to finish my homework before dinner."
+
+
 ### Example Python Script
 
 ```python
@@ -28,6 +60,7 @@ response = client.chat.completions.create(
     top_p=1                 # Use all tokens in the response generation
 )
 ```
+
 
 ## Key Prompting Techniques
 
