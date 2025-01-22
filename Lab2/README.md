@@ -28,19 +28,19 @@ With all those fancy transformers stuff, we end up having a few options with the
 4. Mars: 0.1
 
 
-1. Temperature:
+## Temperature:
 
 Low temperature (0.1): The model skews strongly toward the most probable option. In this case, "home" (0.4) would almost always be chosen.
 
 High temperature (1.0): The model’s selection becomes more random, with less emphasis on probabilities. It might select any of the options (“home”, “school,” “the park,” or “Mars”), giving each word a chance proportional to its probability.
 
-2. Top-p:
+## Top-p:
 
 Top-p = 1.0 (Full Nucleus): All options are considered. The model might choose any of the four words, weighted by their respective probabilities. So you might be head towards Mars 1/10.
 
 Top-p = 0.7: Only the top cumulative 70% probability is considered. In this case, "home" and "school" would be included, but "the park" and "Mars" would be excluded because their combined probability (0.3) falls outside the 60% threshold. So you will never head towards Mars under this hyperparam!
 
-3. max_tokens:
+## max_tokens:
 
 If max_tokens is set to 1, the model stops after generating a single word. For the prompt "I am heading towards," the output might be "home."
 
