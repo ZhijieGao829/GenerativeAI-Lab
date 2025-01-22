@@ -38,7 +38,7 @@ High temperature (1.0): The model’s selection becomes more random, with less e
 
 Top-p = 1.0 (Full Nucleus): All options are considered. The model might choose any of the four words, weighted by their respective probabilities. So you might be head towards Mars 1/10.
 
-Top-p = 0.7: Only the top cumulative 70% probability is considered. In this case, "home" and "school" would be included, but "the park" and "Mars" would be excluded because their combined probability (0.3) falls outside the 60% threshold. So you will never head towards Mars under this hyperparam!
+Top-p = 0.7: Only the top cumulative 70% probability is considered. In this case, "home" and "school" would be included, but "the park" and "Mars" would be excluded because their combined probability (0.3) falls outside the 70% threshold. So you will never head towards Mars under this hyperparam!
 
 ##### max_tokens:
 
