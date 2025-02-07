@@ -134,6 +134,8 @@ print(image_url)
 
 ### Additional Notes:
 - For comprehensive documentation and more examples, visit the [OpenAI API documentation](https://beta.openai.com/docs/).
+- To make sure the file directories work on colab, add this code ![d7ba698d9ab633f26c4fdf38e9f508c](https://github.com/user-attachments/assets/e8080b30-8f53-4cf8-b722-0a1405df63eb) at the beginning of your notebook.
+
 
 ---
 
