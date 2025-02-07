@@ -42,7 +42,7 @@ pip install diffusers transformers accelerate huggingface_hub
 ### 3. Set Up Your Environment
 Open Google Colab and select a GPU:
 1. Navigate to **Runtime > Change runtime type**.
-2. Select **A100 GPU** under *Hardware accelerator*.
+2. Select **T4 GPU** under *Hardware accelerator*.
 3. Click **Save**.
 
 ### 4. Authenticate with Hugging Face
